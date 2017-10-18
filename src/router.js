@@ -1,5 +1,5 @@
-import index from './views/index.vue'
-import about from './views/about.vue'
+import index from './views/index/index.vue'
+import about from './views/about/about.vue'
 export default {
     linkActiveClass: 'active',
     routes: [{

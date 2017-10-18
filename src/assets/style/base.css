@@ -1,3 +1,29 @@
-ul {
-	list-style: none;
+div, ul, li, ol, li, dl, dt, dd, p{
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body{
+	font-family: 'Microsoft Yahei';
+	font-size: 62.5%;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix {
+	content:"";
+	height:0;
+	line-height:0;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+.w {
+	width: 1190px;
+	height: auto;
+	margin: 0 auto;
 }
