@@ -1,8 +1,17 @@
-div, ul, li, ol, li, dl, dt, dd, p{
+div, ul, li, ol, li, dl, dt, dd, p,
+h1, h2, h3, h4, h5, h6,
+input, button
+{
 	padding: 0;
 	margin: 0;
 }
-
+input, button {
+	outline: none;
+	border: none;
+}
+ul {
+	list-style: none;
+}
 html,
 body{
 	font-family: 'Microsoft Yahei';
@@ -25,5 +34,6 @@ body{
 .w {
 	width: 1190px;
 	height: auto;
+	overflow: hidden;
 	margin: 0 auto;
 }

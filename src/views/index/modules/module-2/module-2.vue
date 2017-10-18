@@ -25,7 +25,7 @@
 </template>
 
 <script>
-	import modhead from './module-head.vue'
+	import modhead from '../module-head.vue'
 	export default {
 		data () {
 			return {
