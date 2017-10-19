@@ -1,0 +1,38 @@
+.mod-3 {
+	width: 100%;
+	max-width: 1400px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 30px;
+
+	.item {
+		float: left;
+		position: relative;
+		width: 33.3333%;
+	}
+	.item-img {
+		img {
+			width: 100%;
+		}
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #404040;
+			content: "";
+			opacity: .9;
+		}
+	}
+	.item-text {
+		position: absolute;
+		width: 60%;
+		left: 12%;
+		top: 35%;
+		color: #fff;
+		font-width: bold;
+		font-size: 3em;
+		opacity: 1;
+	}
+}

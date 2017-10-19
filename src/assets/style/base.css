@@ -8,14 +8,14 @@ input, button
 input, button {
 	outline: none;
 	border: none;
+	background: none;
 }
 ul {
 	list-style: none;
 }
-html,
-body{
-	font-family: 'Microsoft Yahei';
-	font-size: 62.5%;
+a:hover {
+	text-decoration: none;
+	color: #e04840;
 }
 .fl{
 	float: left;
@@ -36,4 +36,10 @@ body{
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
+}
+
+html,
+body{
+	font-family: 'Microsoft Yahei';
+	font-size: 62.5%;
 }

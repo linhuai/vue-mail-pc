@@ -1,15 +1,17 @@
 <template>
     <div class="main">
-        <vModone :list="modules.productlist"></vModone>
-        <vModthree></vModthree>
-        <vModtwo></vModtwo>
+        <modone :list="modules.productlist"></modone>
+        <modthree></modthree>
+        <modtwo :list="modules.productlist"></modtwo>
+        <modfour></modfour>
     </div>
 </template>
 <script>
-    import vBanner from '../../components/banner/banner.vue'
-    import vModone from './modules/module-1/module-1.vue'
-    import vModtwo from './modules/module-2/module-2.vue'
-    import vModthree from './modules/module-3/module-3.vue'
+    import banner from '../../components/banner/banner.vue'
+    import modone from './modules/module-1/module-1.vue'
+    import modtwo from './modules/module-2/module-2.vue'
+    import modthree from './modules/module-3/module-3.vue'
+    import modfour from './modules/module-4/module-4.vue'
     export default {
         data: function () {
             return {
@@ -25,10 +27,11 @@
             }
         },
         components: {
-            vBanner,
-            vModone,
-            vModtwo,
-            vModthree
+            banner,
+            modone,
+            modtwo,
+            modthree,
+            modfour
         }
     }
 </script>

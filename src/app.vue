@@ -4,10 +4,12 @@
         <div class="view">
             <router-view></router-view>
         </div>
+        <vFooter></vFooter>
     </div>
 </template>
 <script>
 import header from './components/header/header.vue'
+import footer from './components/footer/footer.vue'
 export default {
     data: function () {
         return {
@@ -15,7 +17,8 @@ export default {
         }
     },
     components: {
-        vHeader: header
+        vHeader: header,
+        vFooter: footer
     }
 }
 </script>

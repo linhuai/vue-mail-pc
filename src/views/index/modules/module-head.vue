@@ -18,6 +18,7 @@
 	overflow: hidden;
 	border-top: 3px solid #fa0;
 	background-color: #efefef;
+	font-size: 2.6em;
 }
 .mod-tit {
 	float: left;
